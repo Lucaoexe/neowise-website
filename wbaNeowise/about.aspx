@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <body>
+    
 	<div id="body">
 		<div class="content">
 			<a href="#"><img src="images/johannedoe.jpg" alt=""></a> <b>We Have Free Templates for Everyone</b>
@@ -25,36 +25,7 @@
 				Please feel free to remove some or all the text and links of this page and replace it with your own About content.
 			</p>
 		</div>
-		<div class="sidebar">
-			<div>
-				<h3>shows</h3>
-				<ul>
-					<li>
-						<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-					</li>
-					<li>
-						<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-					</li>
-					<li>
-						<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-					</li>
-					<li>
-						<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-					</li>
-				</ul>
-			</div>
-			<div class="album">
-				<h3>album</h3>
-				<a href="#"><img src="images/album.jpg" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
-			</div>
-			<div class="connect">
-				<h3>social</h3>
-				<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
-				<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
-				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
-			</div>
-		</div>
 	</div>
-	</body>
+	
 
 </asp:Content>
