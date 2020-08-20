@@ -21,6 +21,9 @@
                         <asp:MenuItem NavigateUrl="~/blog.aspx" Text="blog"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/show.aspx" Text="Shows" ></asp:MenuItem>
                     </Items>
+                    <Items>
+                        
+                    </Items>
                 </asp:Menu>
 
                 <form action="index.aspx">
@@ -32,16 +35,14 @@
             <div class="body">
 			<a href="index.html" class="logo"><img src="images/logo.png" alt="320px"></a>
 			<p>
-				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
+				Alguma Frase Bacana Body!
 			</p>
-			<a class="download" href="#">download johanne doe now</a>
 		</div>
 
             <div class="footer">
                 <p>
-                    This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
+                    Alguma Frase Footer
                 </p>
-                <a href="http://www.freewebsitetemplates.com/">-Free Website Templates</a>
             </div>
         </div>
         <div id="body">
@@ -50,24 +51,24 @@
 
             <div class="sidebar">
                 <div>
-                    <h3>shows</h3>
+                    <h3>Eventos</h3>
                     <ul>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
+                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Apocalipse</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
+                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
+                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
+                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
                         </li>
                     </ul>
                 </div>
                 <div class="album">
-                    <h3>album</h3>
+                    <h3>Fotos</h3>
                     <a href="#">
                         <img src="images/album.jpg" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
                 </div>
