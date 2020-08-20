@@ -67,8 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="blog.aspx" />
     <Content Include="css\style.css" />
-    <Content Include="Home.aspx" />
+    <Content Include="images\bg-body2.jpg" />
+    <Content Include="images\logo2.png" />
+    <Content Include="index.aspx" />
     <Content Include="images\album.jpg" />
     <Content Include="images\bg-body.jpg" />
     <Content Include="images\icons.png" />
@@ -80,15 +84,30 @@
     <Content Include="images\quot-close.png" />
     <Content Include="images\quot-open.png" />
     <Content Include="images\video.jpg" />
+    <Content Include="shows.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="PGMestre.Master.cs">
       <DependentUpon>PGMestre.Master</DependentUpon>
@@ -98,6 +117,13 @@
       <DependentUpon>PGMestre.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shows.aspx.cs">
+      <DependentUpon>shows.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shows.aspx.designer.cs">
+      <DependentUpon>shows.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\NixieOne-Regular.eot" />

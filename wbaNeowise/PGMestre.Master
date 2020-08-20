@@ -16,23 +16,32 @@
             <div class="header">
                 <ul>
                     <li class="selected">
-                        <a href="index.html">home</a>
+                        <a href="index.aspx">home</a>
                     </li>
                     <li>
-                        <a href="about.html">about</a>
+                        <a href="about.aspx">about</a>
                     </li>
                     <li>
-                        <a href="blog.html">blog</a>
+                        <a href="blog.aspx">blog</a>
                     </li>
                     <li>
-                        <a href="shows.html">shows</a>
+                        <a href="shows.aspx">shows</a>
                     </li>
                 </ul>
-                <form action="index.html">
+                <form action="index.aspx">
                     <input type="text" name="email" id="email" value="Enter e-mail address">
                     <input type="submit" name="submit" id="submit" value="">
                 </form>
             </div>
+
+            <div class="body">
+			<a href="index.html" class="logo"><img src="images/logo2.png" alt="320px"></a>
+			<p>
+				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
+			</p>
+			<a class="download" href="#">download johanne doe now</a>
+		</div>
+
             <div class="footer">
                 <p>
                     This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.

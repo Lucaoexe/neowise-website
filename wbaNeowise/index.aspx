@@ -1,15 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PGMestre.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="wbaNeowise.Home" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PGMestre.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="wbaNeowise.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="body">
-			<a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
-			<p>
-				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
-			</p>
-			<a class="download" href="#">download johanne doe now</a>
-		</div>
+    
 
  
 
