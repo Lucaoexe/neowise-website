@@ -14,20 +14,15 @@
     <form id="form1" runat="server">
         <div id="header">
             <div class="header">
-                <ul>
-                    <li class="selected">
-                        <a href="index.aspx">home</a>
-                    </li>
-                    <li>
-                        <a href="about.aspx">about</a>
-                    </li>
-                    <li>
-                        <a href="blog.aspx">blog</a>
-                    </li>
-                    <li>
-                        <a href="shows.aspx">shows</a>
-                    </li>
-                </ul>
+                <asp:Menu ID="Menu1" runat="server">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" > </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/about.aspx" Text="About" ></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/blog.aspx" Text="blog"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/show.aspx" Text="Shows" ></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+
                 <form action="index.aspx">
                     <input type="text" name="email" id="email" value="Enter e-mail address">
                     <input type="submit" name="submit" id="submit" value="">
@@ -35,7 +30,7 @@
             </div>
 
             <div class="body">
-			<a href="index.html" class="logo"><img src="images/logo2.png" alt="320px"></a>
+			<a href="index.html" class="logo"><img src="images/logo.png" alt="320px"></a>
 			<p>
 				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
 			</p>
