@@ -67,13 +67,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\album.jpg" />
+    <Content Include="images\bg-body.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\interface.png" />
+    <Content Include="images\johannedoe-sideview.jpg" />
+    <Content Include="images\johannedoe.jpg" />
+    <Content Include="images\johannedoe2.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\quot-close.png" />
+    <Content Include="images\quot-open.png" />
+    <Content Include="images\video.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PGMestre.Master.cs">
+      <DependentUpon>PGMestre.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PGMestre.Master.designer.cs">
+      <DependentUpon>PGMestre.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\NixieOne-Regular.eot" />
+    <Content Include="fonts\NixieOne-Regular.otf" />
+    <Content Include="fonts\NixieOne-Regular.svg" />
+    <Content Include="fonts\NixieOne-Regular.ttf" />
+    <Content Include="fonts\NixieOne-Regular.woff" />
     <None Include="packages.config" />
+    <Content Include="PGMestre.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
