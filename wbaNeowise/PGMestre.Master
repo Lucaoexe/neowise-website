@@ -26,10 +26,10 @@
                     </Items>
                 </asp:Menu>
 
-                <form action="index.aspx">
+               
                     <input type="text" name="email" id="email" value="Digite Seu E-mail ">
                     <input type="submit" name="submit" id="submit" value="">
-                </form>
+               
             </div>
 
             <div class="body">
@@ -48,7 +48,7 @@
         <div id="body">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
+    
             <div class="sidebar">
                 <div>
                     <h3>Eventos</h3>

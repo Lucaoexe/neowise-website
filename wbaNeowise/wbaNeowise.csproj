@@ -84,6 +84,7 @@
     <Content Include="images\quot-close.png" />
     <Content Include="images\quot-open.png" />
     <Content Include="images\video.jpg" />
+    <Content Include="post1.aspx" />
     <Content Include="shows.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -115,6 +116,13 @@
     </Compile>
     <Compile Include="PGMestre.Master.designer.cs">
       <DependentUpon>PGMestre.Master</DependentUpon>
+    </Compile>
+    <Compile Include="post1.aspx.cs">
+      <DependentUpon>post1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="post1.aspx.designer.cs">
+      <DependentUpon>post1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shows.aspx.cs">

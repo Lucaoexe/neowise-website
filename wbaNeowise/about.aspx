@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-	<div id="body">
+	
 		<div class="content">
 			<a href="#"><img src="images/johannedoe.jpg" alt=""></a> <b>We Have Free Templates for Everyone</b>
 			<p>
@@ -25,7 +25,7 @@
 				Please feel free to remove some or all the text and links of this page and replace it with your own About content.
 			</p>
 		</div>
-	</div>
+	
 	
 
 </asp:Content>
