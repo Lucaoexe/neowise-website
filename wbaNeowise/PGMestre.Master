@@ -19,7 +19,7 @@
                         <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" > </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/about.aspx" Text="About" ></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/blog.aspx" Text="blog"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/show.aspx" Text="Shows" ></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/shows.aspx" Text="Shows" ></asp:MenuItem>
                     </Items>
                     <Items>
                         
@@ -27,7 +27,7 @@
                 </asp:Menu>
 
                 <form action="index.aspx">
-                    <input type="text" name="email" id="email" value="Enter e-mail address">
+                    <input type="text" name="email" id="email" value="Digite Seu E-mail ">
                     <input type="submit" name="submit" id="submit" value="">
                 </form>
             </div>
@@ -35,13 +35,13 @@
             <div class="body">
 			<a href="index.html" class="logo"><img src="images/logo.png" alt="320px"></a>
 			<p>
-				Alguma Frase Bacana Body!
+				Alguma Frase Bacana (Body)
 			</p>
 		</div>
 
             <div class="footer">
                 <p>
-                    Alguma Frase Footer
+                    Alguma Frase do reddit (Footer)
                 </p>
             </div>
         </div>
@@ -57,13 +57,13 @@
                             <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Apocalipse</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
+                            <a href="shows.html">July 20, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
+                            <a href="shows.html">July 21, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
+                            <a href="shows.html">July 22, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
                         </li>
                     </ul>
                 </div>
@@ -82,10 +82,9 @@
         </div>
         <div id="footer">
             <p>
-                &copy;Copyright 2023. <a href="index.html">Company name</a> all rights reserved
+                &copy;Copyright 2077. <a href="index.html">Estudantes Falidos Company</a> all rights not reserved
             </p>
         </div>
-
         </div>
     </form>
 </body>
