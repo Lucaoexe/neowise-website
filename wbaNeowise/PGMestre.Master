@@ -7,7 +7,7 @@
 <html>
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Mundo da Lua Versão Alpha</title>
+    <title>Mundo da Lua Versão Beta</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -17,20 +17,19 @@
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="header">
             <div class="header">
-                <asp:Button ID="btnID" runat="server" Height="28px" Text="Login" Width="53px" CssClass="#header .header form input" />
-                <asp:Menu ID="Menu1" runat="server">
-                    <StaticHoverStyle CssClass="#header .header ul li.selected a" />
-                    <DynamicHoverStyle CssClass="#header .header ul li.selected a" />
+                <asp:Menu ID="MenuPrincipal" runat="server">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" > </asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/about.aspx" Text="About" ></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/blog.aspx" Text="blog"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/shows.aspx" Text="Shows" ></asp:MenuItem>
-                    </Items>
-                    <Items>
-                        
+                        <asp:MenuItem NavigateUrl="~/index.aspx" Text="Inicial" > </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/about.aspx" Text="Sobre" ></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/blog.aspx" Text="Blog"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/shows.aspx" Text="Eventos" ></asp:MenuItem>
                     </Items>
                 </asp:Menu>
+                <div id="formCadastro">
+					<asp:TextBox ID="txtEmail" runat="server" CssClass="inputEmail" Text="Digite seu email"></asp:TextBox>
+					<!--<asp:Button ID="btnSubmit" runat="server" Text="" CssClass="btnCadastrar" />-->
+                    <asp:Button ID="BtnInscrever" runat="server" Text="Criar Conta" BackColor="Purple" />
+				</div>
             </div>
 
             <div class="body">
@@ -47,16 +46,13 @@
                 <asp:Button ID="btndepois" runat="server" Text="=>" />
                 </p>
                
-			<p>
-				Alguma Frase Bacana (Body)
-			</p>
+			
 		</div>
 
             <div class="footer">
-                <p>
-                    Alguma Frase do reddit (Footer)
-                </p>
+                
             </div>
+                
         </div>
         <div id="body">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -67,35 +63,35 @@
                     <h3>Eventos</h3>
                     <ul>
                         <li>
-                            <a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Apocalipse</b></a>
+                            <a href="shows.html">32 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Apocalipse</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 20, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
+                            <a href="shows.html">33 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 21, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
+                            <a href="shows.html">34 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
                         </li>
                         <li>
-                            <a href="shows.html">July 22, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
+                            <a href="shows.html">35 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
                         </li>
                     </ul>
                 </div>
                 <div class="album">
                     <h3>Fotos</h3>
                     <a href="#">
-                        <img src="images/album2.jpg" width="320" height="300" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
+                        <img src="images/album2.jpg" width="320" height="300" alt=""></a> <span>Asteroide h320-4300g</span>
                 </div>
                 <div class="connect">
                     <h3>social</h3>
-                    <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
-                    <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
-                    <a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+                    <a href="http://www.google.com" id="google">googleplus</a>
+                    <a href="http://www.facebook.com" id="facebook">facebook</a>
+                    <a href="http://www.twitter.com" id="twitter">twitter</a>
                 </div>
             </div>
         </div>
         <div id="footer">
             <p>
-                &copy;Copyright 2077. <a href="index.html">Estudantes Falidos Company</a> all rights not reserved
+                Unlicensed 2020. <a href="index.aspx">Bruno, João e Lucas</a> ao Domínio Público
             </p>
         </div>
     </form>

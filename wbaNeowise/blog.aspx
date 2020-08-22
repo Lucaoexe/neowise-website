@@ -8,25 +8,25 @@
     <div class="content">
 			<h2>blog</h2>
 			<div>
-				<h3>blog title one</h3>
-				<a href="#"><img src="images/johannedoe2.jpg" alt=""></a>
+				<h3>Galaxy NGC 3147</h3>
+				<a href="#"><img src="SlidesShow/Galaxy-NGC-3147.jpg" alt="Galaxy-NGC-3147" width="600" height="320"></a>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia placerat sem quis iaculis. Etiam euismod orci nec ante hendrerit pulvinar.
+					A galáxia Galaxy NGC 3147 está relativamente próxima, a uma distância de aproximadamente 130 milhões de anos-luz, e pode ser encontrada na constelação de Draco (O Dragão).
 				</p>
-				<a href="#" class="more">read more</a>
+				<a href="#" class="more">Leia Mais</a>
 			</div>
 			<div>
-				<h3>blog title two</h3>
-				<a href="#"><img src="images/johannedoe-sideview.jpg" alt=""></a>
+				<h3>Nebulosa do Caranguejo</h3>
+				<a href="#"><img src="SlidesShow/Hen2-104.jpg" alt="Nebulosa do Caranguejo" width="600" height="320"></a>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia placerat sem quis iaculis. Etiam euismod orci nec ante hendrerit pulvinar.
+					A nebulosa oficialmente conhecida como Hen 2-104 e popularmente chamada de Nebulosa do Caranguejo está localizada no hemisfério sul da constelação do Centauro.
 				</p>
-				<a href="#" class="more">read more</a>
+				<a href="#" class="more">Leia Mais</a>
 			</div>
 			<div class="paging">
 				<ul>
 					<li class="first">
-						<a href="#">first</a>
+						<a href="#">Inicio</a>
 					</li>
 					<li class="selected">
 						<a href="#">1</a>
@@ -80,7 +80,7 @@
 						<a href="#">17</a>
 					</li>
 					<li class="last">
-						<a href="#">last</a>
+						<a href="#">Fim</a>
 					</li>
 				</ul>
 			</div>

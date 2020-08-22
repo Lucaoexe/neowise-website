@@ -42,22 +42,40 @@ namespace wbaNeowise
         protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
-        /// Controle btnID.
+        /// Controle MenuPrincipal.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnID;
+        protected global::System.Web.UI.WebControls.Menu MenuPrincipal;
 
         /// <summary>
-        /// Controle Menu1.
+        /// Controle txtEmail.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu Menu1;
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+
+        /// <summary>
+        /// Controle btnSubmit.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
+
+        /// <summary>
+        /// Controle BtnInscrever.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnInscrever;
 
         /// <summary>
         /// Controle Label1.

@@ -12,10 +12,18 @@ namespace wbaNeowise
     
         public partial class PGMestre : System.Web.UI.MasterPage
         {
-        public partial class Ajax_Slideshow_Image : System.Web.UI.Page
-        {
+       
             protected void Page_Load(object sender, EventArgs e)
             {
+                foreach (MenuItem item in MenuPrincipal.Items)
+                {
+                    if (Request.Url.AbsoluteUri.ToLower().
+                        Contains(Page.ResolveUrl(
+                            item.NavigateUrl.ToLower())))
+                    {
+                        item.Selected = true;
+                    }
+                }
 
             }
             [System.Web.Services.WebMethod]
@@ -35,6 +43,6 @@ namespace wbaNeowise
 
             }
 
-        }
+        
     }
 }

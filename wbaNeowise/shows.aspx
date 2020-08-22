@@ -8,43 +8,43 @@
 			<h2>shows</h2>
 			<ul>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">31 de Agosto de 2020&nbsp;&nbsp;-&nbsp;&nbsp;<b>Super Lua</b> </a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">19 de Setembro de 2020&nbsp;&nbsp;-&nbsp;&nbsp;<b>Eclipse lunar</b></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">22 de Dezembro 2020&nbsp;&nbsp;-&nbsp;&nbsp;<b>Chuva de meteoritos</b> </a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">32 de Onzembro de 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Destruição da terra</b> <i>Fake News</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 				<li>
-					<a href="#">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b> <i>Book Now!</i></a>
+					<a href="#">Dia de Mês do Ano&nbsp;&nbsp;-&nbsp;&nbsp;<b>Acontecimento do espaço</b> <i>Aviso</i></a>
 				</li>
 			</ul>
 			<div class="paging">
 				<ul>
 					<li class="first">
-						<a href="#">first</a>
+						<a href="#">Inicio</a>
 					</li>
 					<li class="selected">
 						<a href="#">1</a>
@@ -98,7 +98,7 @@
 						<a href="#">17</a>
 					</li>
 					<li class="last">
-						<a href="#">last</a>
+						<a href="#">Fim</a>
 					</li>
 				</ul>
 			</div>
