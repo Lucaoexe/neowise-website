@@ -6,13 +6,20 @@
 		<div class="content">
 			<a href="#"><iframe width="500" height="360" src="https://www.youtube.com/embed/t6KbDU-m2yA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
 			<p>
-				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismonf.
+				O famoso objeto que descoberto por uma equipe usando o telescópio espacial NEOWISE em 27 de março de 2020. Foi classificado como um cometa em 31 de março e recebeu o nome de NEOWISE em 1º de abril. Possui a designação sistemática (Nomeação de cometas) C/2020 F3, indicando um cometa não periódico que foi o terceiro descoberto na segunda metade de março de 2020. O cometa NEOWISE fez sua aproximação mais próxima do Sol (periélio, é o ponto da orbita de um corpo qualquer que está mais próxima do sol) em 3 de julho de 2020, a uma distância de 0,29 UA (Unidade Astronômica, 43 milhões de quilômetros). Esta passagem aumenta o período orbital do cometa de cerca de 4500 anos para cerca de 6800 anos. Sua aproximação mais próxima da Terra ocorreu em 23 de julho de 2020, a uma distância de 0,69 UA (103 milhões de quilômetros), enquanto estiver localizado na constelação de Ursa Maior.
 			</p>
+			<img src="images/neowise-1.jpg" alt="" width=500 height=300><br>
 			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utUt wisi enim ad minim veniam. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+				Visto da Terra, o cometa estava a menos de 20 graus do Sol entre 11 de junho e 9 de julho de 2020. Em 10 de junho de 2020, quando o cometa estava sendo perdido pelo brilho do Sol, era de magnitude aparente 7 (Magnitude aparente de um corpo é um número que mede o seu brilho como visto da Terra, quanto menor a magnitude, maior é seu brilho) quando estava a 0,7 UA (100 milhões de quilômetros) de distância do Sol e a 1,6 UA (240 milhões de quilômetros) de distância da Terra.
 			</p>
+			<img src="images/neowise-2.jpeg" alt="" width=500 height=300><br>
 			<p>
-				Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. I me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+				Quando o cometa entrou no campo de visão do instrumento LASCO C3 da sonda SOHO em 22 de junho de 2020, o cometa tinha aumentado para cerca de magnitude 3, quando estava a 0,4 UA (60 milhões de quilômetros) de distância do Sol e 1,4 UA (210 milhões de km) de distância da Terra.
 			</p>
+			<img src="images/neowise-3.jpg" alt="" width=500 height=300><br>
+			<p>
+				Em julho, também havia desenvolvido uma segunda cauda. A primeira cauda é azul e feita de gás e íons. Há também uma separação vermelha na cauda causada por grandes quantidades de sódio. A segunda cauda é de cor dourada e é feita de poeira. E este foi provavelmente um evento único registrado pelo Cometa Neowise (C/2020 F3), a próxima passagem será daqui 6.765 anos.
+			</p>
+			<img src="images/neowise-4.jpg" alt="" width=500 height=300>
 		</div>
 </asp:Content>

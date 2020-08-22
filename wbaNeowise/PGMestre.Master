@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PGMestre.master.cs" Inherits="wbaNeowise.PGMestre" %>
 
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
 <!DOCTYPE html>
 
 <html>
@@ -12,6 +14,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="header">
             <div class="header">
                 <asp:Button ID="btnID" runat="server" Height="28px" Text="Login" Width="53px" CssClass="#header .header form input" />
@@ -31,7 +34,20 @@
             </div>
 
             <div class="body">
-			<a href="index.html" class="logo"><img src="images/logo.png" alt="320px"></a>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                
+                <asp:Image ID="Image1" runat="server" />
+                <ajaxToolkit:SlideShowExtender ID="SlideShowExtender1" runat="server" 
+                AutoPlay="true" ImageTitleLabelID="label1" PlayInterval="1000" loop="true" PlayButtonID="btnpause" PlayButtonText="Play"
+                    StopButtonText="Pause" PreviousButtonID="btndepois" NextButtonID-="btndepois" SlideShowAnimationType="SlideRight" TargetControlID="Image1"
+                    SlideShowServiceMethod="imgslides"/>
+                <ajaxToolkit:SlideShowExtender />
+                <p>
+                 <asp:Button ID="btnantes" runat="server" Text="<=" />   
+                <asp:Button ID="btnpause" runat="server" Text="||" Width="40px" Height="40px" />
+                <asp:Button ID="btndepois" runat="server" Text="=>" />
+                </p>
+               
 			<p>
 				Alguma Frase Bacana (Body)
 			</p>

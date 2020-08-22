@@ -74,8 +74,16 @@
     <Content Include="about.aspx" />
     <Content Include="blog.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="images\neowise-1.jpg" />
+    <Content Include="images\neowise-2.jpeg" />
+    <Content Include="images\neowise-3.jpg" />
+    <Content Include="images\neowise-4.jpg" />
+    <Content Include="SlidesShow\6478-Gault.jpg" />
     <Content Include="images\album2.jpg" />
+    <Content Include="SlidesShow\Arp-Madore2026-424.jpg" />
     <Content Include="images\bg-body2.jpg" />
+    <Content Include="SlidesShow\Galaxy-NGC-3147.jpg" />
+    <Content Include="SlidesShow\Hen2-104.jpg" />
     <Content Include="images\logo2.png" />
     <Content Include="index.aspx" />
     <Content Include="images\album.jpg" />
