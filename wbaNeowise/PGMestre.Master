@@ -68,7 +68,7 @@
                 <div class="album">
                     <h3>Fotos</h3>
                     <a href="#">
-                        <img src="images/album2.jpg" width="320px" height="300px" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
+                        <img src="images/album2.jpg" width="320" height="300" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
                 </div>
                 <div class="connect">
                     <h3>social</h3>
