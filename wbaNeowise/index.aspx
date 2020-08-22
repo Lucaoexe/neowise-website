@@ -8,7 +8,7 @@
  
 
 		<div class="content">
-			<a href="#"><img src="images/video.jpg" alt=""></a>
+			<a href="#"><iframe width="500" height="360" src="https://www.youtube.com/embed/t6KbDU-m2yA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
 			<p>
 				This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismonf.
 			</p>

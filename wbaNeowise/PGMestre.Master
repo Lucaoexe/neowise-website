@@ -14,7 +14,10 @@
     <form id="form1" runat="server">
         <div id="header">
             <div class="header">
+                <asp:Button ID="btnID" runat="server" Height="28px" Text="Login" Width="53px" CssClass="#header .header form input" />
                 <asp:Menu ID="Menu1" runat="server">
+                    <StaticHoverStyle CssClass="#header .header ul li.selected a" />
+                    <DynamicHoverStyle CssClass="#header .header ul li.selected a" />
                     <Items>
                         <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" > </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/about.aspx" Text="About" ></asp:MenuItem>
@@ -70,7 +73,7 @@
                 <div class="album">
                     <h3>Fotos</h3>
                     <a href="#">
-                        <img src="images/album.jpg" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
+                        <img src="images/album2.jpg" width="320px" height="300px" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
                 </div>
                 <div class="connect">
                     <h3>social</h3>
@@ -84,7 +87,6 @@
             <p>
                 &copy;Copyright 2077. <a href="index.html">Estudantes Falidos Company</a> all rights not reserved
             </p>
-        </div>
         </div>
     </form>
 </body>
