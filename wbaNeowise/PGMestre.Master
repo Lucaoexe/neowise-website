@@ -28,11 +28,6 @@
                         
                     </Items>
                 </asp:Menu>
-
-               
-                    <input type="text" name="email" id="email" value="Digite Seu E-mail ">
-                    <input type="submit" name="submit" id="submit" value="">
-               
             </div>
 
             <div class="body">

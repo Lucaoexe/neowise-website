@@ -1,11 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PGMestre.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="wbaNeowise.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-
- 
 
 		<div class="content">
 			<a href="#"><iframe width="500" height="360" src="https://www.youtube.com/embed/t6KbDU-m2yA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
