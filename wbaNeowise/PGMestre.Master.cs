@@ -9,30 +9,32 @@ using System.IO;
 
 namespace wbaNeowise
 {
-    public partial class PGMestre : System.Web.UI.MasterPage
-    {
-        protected void Page_Load(object sender, EventArgs e)
+    
+        public partial class PGMestre : System.Web.UI.MasterPage
         {
+        public partial class Ajax_Slideshow_Image : System.Web.UI.Page
+        {
+            protected void Page_Load(object sender, EventArgs e)
+            {
+
+            }
+            [System.Web.Services.WebMethod]
+            [System.Web.Script.Services.ScriptMethod]
+            public static Slide[] imgslides()
+            {
+                List<Slide> Slides = new List<Slide>();
+                string myimgdir = HttpContext.Current.Server.MapPath("~/SlidesShow/");
+
+                DirectoryInfo dir = new DirectoryInfo(myimgdir);
+                var myslides = from displayimg in dir.GetFiles() select new Slide
+                {
+                   Name = displayimg.Name,
+                   ImagePath = "SlidesShow/" + displayimg.Name
+                };
+                return myslides.ToArray();
+
+            }
 
         }
-
-        [System.Web.Services.WebMethod]
-        [System.Web.Script.Services.ScriptMethod]
-        public static Slide[] imgslides()
-        {
-            List<Slide> Slides = new List<Slide>();
-            string myimgdir = HttpContext.Current.Server.MapPath("~/SlidesShow/");
-
-            DirectoryInfo dir = new DirectoryInfo(myimgdir);
-            var myslides = from displayimg in dir.GetFiles()
-                           select new Slide
-                           {
-                               Name = displayimg.Name,
-                               ImagePath = "SlidesShow/" + displayimg.Name
-                           };
-            return myslides.ToArray(); 
-
-        }
-
     }
 }

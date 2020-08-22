@@ -34,17 +34,16 @@
             </div>
 
             <div class="body">
-                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-                
-                <asp:Image ID="Image1" runat="server" />
+                <asp:Label ID="Label1" runat="server" Text="SlideShow"></asp:Label>
+                <br />
+                <asp:Image ID="Image1" runat="server" Height="250px" Width="350px" />
                 <ajaxToolkit:SlideShowExtender ID="SlideShowExtender1" runat="server" 
-                AutoPlay="true" ImageTitleLabelID="label1" PlayInterval="1000" loop="true" PlayButtonID="btnpause" PlayButtonText="Play"
-                    StopButtonText="Pause" PreviousButtonID="btndepois" NextButtonID-="btndepois" SlideShowAnimationType="SlideRight" TargetControlID="Image1"
-                    SlideShowServiceMethod="imgslides"/>
-                <ajaxToolkit:SlideShowExtender />
+                    AutoPlay="true" ImageTitleLabelID="label1" PlayInterval="1000" loop="true" PlayButtonID="btnplaypause" PlayButtonText="Play"
+                    StopButtonText="Pause" PreviousButtonID="btnantes" NextButtonID-="btndepois" SlideShowAnimationType="Rotate" TargetControlID="Image1"
+                    SlideShowServiceMethod="imgslides "/>
                 <p>
-                 <asp:Button ID="btnantes" runat="server" Text="<=" />   
-                <asp:Button ID="btnpause" runat="server" Text="||" Width="40px" Height="40px" />
+                <asp:Button ID="btnantes" runat="server" Text="<=" />   
+                <asp:Button ID="btnplaypause" runat="server" Text="||" Width="40px" Height="40px" />
                 <asp:Button ID="btndepois" runat="server" Text="=>" />
                 </p>
                

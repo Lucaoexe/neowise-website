@@ -96,13 +96,13 @@ namespace wbaNeowise
         protected global::System.Web.UI.WebControls.Button btnantes;
 
         /// <summary>
-        /// Controle btnpause.
+        /// Controle btnplaypause.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnpause;
+        protected global::System.Web.UI.WebControls.Button btnplaypause;
 
         /// <summary>
         /// Controle btndepois.
