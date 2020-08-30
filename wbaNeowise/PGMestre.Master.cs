@@ -6,6 +6,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using AjaxControlToolkit;
 using System.IO;
+using System.Web.Services;
+using System.Web.Script.Services;
+
+
 
 namespace wbaNeowise
 {

@@ -33,15 +33,6 @@ namespace wbaNeowise
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle ScriptManager1.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
-
-        /// <summary>
         /// Controle MenuPrincipal.
         /// </summary>
         /// <remarks>
@@ -78,13 +69,22 @@ namespace wbaNeowise
         protected global::System.Web.UI.WebControls.Button BtnInscrever;
 
         /// <summary>
-        /// Controle Label1.
+        /// Controle ScriptManager1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
+
+        /// <summary>
+        /// Controle btnPrevious.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPrevious;
 
         /// <summary>
         /// Controle Image1.
@@ -105,31 +105,40 @@ namespace wbaNeowise
         protected global::AjaxControlToolkit.SlideShowExtender SlideShowExtender1;
 
         /// <summary>
-        /// Controle btnantes.
+        /// Controle btnNext.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnantes;
+        protected global::System.Web.UI.WebControls.Button btnNext;
 
         /// <summary>
-        /// Controle btnplaypause.
+        /// Controle btnPlay.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnplaypause;
+        protected global::System.Web.UI.WebControls.Button btnPlay;
 
         /// <summary>
-        /// Controle btndepois.
+        /// Controle lblImageTitle.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btndepois;
+        protected global::System.Web.UI.WebControls.Label lblImageTitle;
+
+        /// <summary>
+        /// Controle lblImageDescription.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblImageDescription;
 
         /// <summary>
         /// Controle ContentPlaceHolder1.

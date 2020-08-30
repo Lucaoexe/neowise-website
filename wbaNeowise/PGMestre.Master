@@ -14,7 +14,6 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
         <div id="header">
             <div class="header">
                 <asp:Menu ID="MenuPrincipal" runat="server">
@@ -28,23 +27,47 @@
                 <div id="formCadastro">
 					<asp:TextBox ID="txtEmail" runat="server" CssClass="inputEmail" Text="Digite seu email"></asp:TextBox>
 					<!--<asp:Button ID="btnSubmit" runat="server" Text="" CssClass="btnCadastrar" />-->
-                    <asp:Button ID="BtnInscrever" runat="server" Text="Criar Conta" BackColor="Purple" />
+                    <asp:Button ID="BtnInscrever" runat="server" Text="Criar Conta" BackColor="Purple" PostBackUrl="~/cadastro.aspx"/>
 				</div>
             </div>
 
             <div class="body">
-                <asp:Label ID="Label1" runat="server" Text="SlideShow"></asp:Label>
-                <br />
-                <asp:Image ID="Image1" runat="server" Height="250px" Width="350px" />
-                <ajaxToolkit:SlideShowExtender ID="SlideShowExtender1" runat="server" 
-                    AutoPlay="true" ImageTitleLabelID="label1" PlayInterval="1000" loop="true" PlayButtonID="btnplaypause" PlayButtonText="Play"
-                    StopButtonText="Pause" PreviousButtonID="btnantes" NextButtonID-="btndepois" SlideShowAnimationType="Rotate" TargetControlID="Image1"
-                    SlideShowServiceMethod="imgslides "/>
-                <p>
-                <asp:Button ID="btnantes" runat="server" Text="<=" />   
-                <asp:Button ID="btnplaypause" runat="server" Text="||" Width="40px" Height="40px" />
-                <asp:Button ID="btndepois" runat="server" Text="=>" />
-                </p>
+                
+       <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+         
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <asp:Button ID="btnPrevious" runat="server" Text="<<" Font-Size="20" />
+                </td>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="300" Width="300" />
+                    <ajaxToolkit:SlideShowExtender ID="SlideShowExtender1" runat="server" TargetControlID="Image1"
+                        SlideShowServiceMethod="GetImages" ImageTitleLabelID="lblImageTitle" ImageDescriptionLabelID="lblImageDescription"
+                        AutoPlay="true" PlayInterval="1000" Loop="true" PlayButtonID="btnPlay" StopButtonText="Stop"
+                        PlayButtonText="Play" NextButtonID="btnNext" PreviousButtonID="btnPrevious"
+                    />
+                </td>
+                <td>
+                    <asp:Button ID="btnNext" runat="server" Text=">>" Font-Size="20" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <asp:Button ID="btnPlay" runat="server" Text="Play" Font-Size="20" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <br />
+                    <b>Name:</b>
+                    <asp:Label ID="lblImageTitle" runat="server" Text="Label" /><br />
+                    <b>Description:</b>
+                    <asp:Label ID="lblImageDescription" runat="server" Text="Label" />
+                </td>
+            </tr>
+        </table>
+
                
 			
 		</div>
