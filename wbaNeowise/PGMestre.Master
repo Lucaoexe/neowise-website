@@ -25,52 +25,14 @@
                     </Items>
                 </asp:Menu>
                 <div id="formCadastro">
-					<asp:TextBox ID="txtEmail" runat="server" CssClass="inputEmail" Text="Digite seu email"></asp:TextBox>
 					<!--<asp:Button ID="btnSubmit" runat="server" Text="" CssClass="btnCadastrar" />-->
-                    <asp:Button ID="BtnInscrever" runat="server" Text="Criar Conta" BackColor="Purple" PostBackUrl="~/cadastro.aspx"/>
+                    <asp:Button ID="BtnInscrever" runat="server" Text="Receber Notícias" BackColor="Purple" PostBackUrl="~/cadastro.aspx"/>
 				</div>
             </div>
 
             <div class="body">
                 
-       <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-         
-        <table border="0" cellpadding="0" cellspacing="0">
-            <tr>
-                <td>
-                    <asp:Button ID="btnPrevious" runat="server" Text="<<" Font-Size="20" />
-                </td>
-                <td>
-                    <asp:Image ID="Image1" runat="server" Height="300" Width="300" />
-                    <ajaxToolkit:SlideShowExtender ID="SlideShowExtender1" runat="server" TargetControlID="Image1"
-                        SlideShowServiceMethod="GetImages" ImageTitleLabelID="lblImageTitle" ImageDescriptionLabelID="lblImageDescription"
-                        AutoPlay="true" PlayInterval="1000" Loop="true" PlayButtonID="btnPlay" StopButtonText="Stop"
-                        PlayButtonText="Play" NextButtonID="btnNext" PreviousButtonID="btnPrevious"
-                    />
-                </td>
-                <td>
-                    <asp:Button ID="btnNext" runat="server" Text=">>" Font-Size="20" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" align="center">
-                    <asp:Button ID="btnPlay" runat="server" Text="Play" Font-Size="20" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" align="center">
-                    <br />
-                    <b>Name:</b>
-                    <asp:Label ID="lblImageTitle" runat="server" Text="Label" /><br />
-                    <b>Description:</b>
-                    <asp:Label ID="lblImageDescription" runat="server" Text="Label" />
-                </td>
-            </tr>
-        </table>
-
-               
-			
-		</div>
+            </div>
 
             <div class="footer">
                 
@@ -80,37 +42,6 @@
         <div id="body">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-    
-            <div class="sidebar">
-                <div>
-                    <h3>Eventos</h3>
-                    <ul>
-                        <li>
-                            <a href="shows.html">32 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Apocalipse</b></a>
-                        </li>
-                        <li>
-                            <a href="shows.html">33 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Fim do Mundo</b></a>
-                        </li>
-                        <li>
-                            <a href="shows.html">34 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Ultimo Dia</b></a>
-                        </li>
-                        <li>
-                            <a href="shows.html">35 de onzembro 2077&nbsp;&nbsp;-&nbsp;&nbsp;<b>Extermínio da Humanidade</b></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="album">
-                    <h3>Fotos</h3>
-                    <a href="#">
-                        <img src="images/album2.jpg" width="320" height="300" alt=""></a> <span>Asteroide h320-4300g</span>
-                </div>
-                <div class="connect">
-                    <h3>social</h3>
-                    <a href="http://www.google.com" id="google">googleplus</a>
-                    <a href="http://www.facebook.com" id="facebook">facebook</a>
-                    <a href="http://www.twitter.com" id="twitter">twitter</a>
-                </div>
-            </div>
         </div>
         <div id="footer">
             <p>
