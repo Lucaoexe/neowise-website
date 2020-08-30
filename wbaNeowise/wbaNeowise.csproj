@@ -74,6 +74,7 @@
     <Content Include="about.aspx" />
     <Content Include="blog.aspx" />
     <Content Include="cadastro.aspx" />
+    <Content Include="cadastrosucess.aspx" />
     <Content Include="css\style.css" />
     <Content Include="images\neowise-1.jpg" />
     <Content Include="images\neowise-2.jpeg" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="cadastro.aspx.designer.cs">
       <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrosucess.aspx.cs">
+      <DependentUpon>cadastrosucess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cadastrosucess.aspx.designer.cs">
+      <DependentUpon>cadastrosucess.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
