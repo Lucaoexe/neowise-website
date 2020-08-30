@@ -57,7 +57,7 @@ namespace wbaNeowise
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnantes;
+        protected global::System.Web.UI.WebControls.ImageButton btnantes;
 
         /// <summary>
         /// Controle btnplaypause.
@@ -66,7 +66,7 @@ namespace wbaNeowise
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnplaypause;
+        protected global::System.Web.UI.WebControls.ImageButton btnplaypause;
 
         /// <summary>
         /// Controle btndepois.
@@ -75,6 +75,6 @@ namespace wbaNeowise
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btndepois;
+        protected global::System.Web.UI.WebControls.ImageButton btndepois;
     }
 }

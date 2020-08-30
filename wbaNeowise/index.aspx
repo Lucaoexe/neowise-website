@@ -16,9 +16,12 @@
                     StopButtonText="Pause" PreviousButtonID="btnantes" NextButtonID ="btndepois" SlideShowAnimationType="SlideRight" TargetControlID="Image1"
                     SlideShowServiceMethod="Imgslides "/>
                 <p>
-                <asp:Button ID="btnantes" runat="server" Text="<=" />   
-                <asp:Button ID="btnplaypause" runat="server" Text="||" Width="40px" Height="40px" />
-                <asp:Button ID="btndepois" runat="server" Text="=>" />
+
+                <asp:ImageButton ID="btnantes" runat="server" ImageUrl="~/icons/voltar.png" />
+                <asp:ImageButton ID="btnplaypause" runat="server" ImageUrl="~/icons/playpause.png"/>
+                <asp:ImageButton ID="btndepois" runat="server" ImageUrl="~/icons/avancar.png" />
+
+
                 </p>
                
 

@@ -76,6 +76,9 @@
     <Content Include="cadastro.aspx" />
     <Content Include="cadastrosucess.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="icons\avancar.png" />
+    <Content Include="icons\playpause.png" />
+    <Content Include="icons\voltar.png" />
     <Content Include="images\neowise-1.jpg" />
     <Content Include="images\neowise-2.jpeg" />
     <Content Include="images\neowise-3.jpg" />
