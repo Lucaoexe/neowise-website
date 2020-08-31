@@ -15,66 +15,48 @@ namespace wbaNeowise
     {
 
         /// <summary>
-        /// Controle ScriptManager1.
+        /// Controle slideshow.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        protected global::wbaNeowise.slideshow slideshow;
 
         /// <summary>
-        /// Controle Label1.
+        /// Controle Image2.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
-        /// Controle Image1.
+        /// Controle Image3.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
-        /// Controle SlideShowExtender1.
+        /// Controle Image4.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::AjaxControlToolkit.SlideShowExtender SlideShowExtender1;
+        protected global::System.Web.UI.WebControls.Image Image4;
 
         /// <summary>
-        /// Controle btnantes.
+        /// Controle Image5.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnantes;
-
-        /// <summary>
-        /// Controle btnplaypause.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnplaypause;
-
-        /// <summary>
-        /// Controle btndepois.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btndepois;
+        protected global::System.Web.UI.WebControls.Image Image5;
     }
 }

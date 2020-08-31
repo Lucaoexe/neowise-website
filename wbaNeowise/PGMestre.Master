@@ -1,13 +1,12 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PGMestre.master.cs" Inherits="wbaNeowise.PGMestre" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register Src="~/Lateral.ascx" TagPrefix="uc1" TagName="Lateral" %>
 
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-br">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Mundo da Lua Versão Beta</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -15,39 +14,49 @@
 <body>
     <form id="form1" runat="server">
         <div id="header">
-            <div class="header">
-                <asp:Menu ID="MenuPrincipal" runat="server">
-                    <Items>
+			<div class="header">
+				<asp:Menu ID="MenuPrincipal" 
+					runat="server">
+					<Items>
                         <asp:MenuItem NavigateUrl="~/index.aspx" Text="Inicial" > </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/about.aspx" Text="Sobre" ></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/blog.aspx" Text="Blog"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/shows.aspx" Text="Eventos" ></asp:MenuItem>
                     </Items>
-                </asp:Menu>
-                <div id="formCadastro">
-					<!--<asp:Button ID="btnSubmit" runat="server" Text="" CssClass="btnCadastrar" />-->
-                    <asp:Button ID="BtnInscrever" runat="server" Text="Receber Notícias" BackColor="Purple" PostBackUrl="~/cadastro.aspx"/>
+				</asp:Menu>
+				<div id="formCadastro">
+					<asp:TextBox ID="txtEmail" runat="server" CssClass="inputEmail" Text="Digite seu email"></asp:TextBox>
+					<asp:Button ID="btnSubmit" runat="server" Text="" CssClass="btnCadastrar" />
 				</div>
-            </div>
-
-            <div class="body">
-                
-            </div>
-
-            <div class="footer">
-                
-            </div>
-                
-        </div>
+				<!--<form action="index.html">
+					<input type="text" name="email" id="email" value="Enter e-mail address">
+					<input type="submit" name="submit" id="submit" value="">
+				</form>-->
+			</div>
+			<div class="body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder_HeaderBody" runat="server"></asp:ContentPlaceHolder>
+			</div>
+			<div class="footer">
+				<p class="phrase">
+					Em algum lugar, algo incrível está esperando para ser descoberto.
+				</p>
+				<p class="authorship">
+					— Carl Sagan
+				</p>
+			</div>
+		</div>
         <div id="body">
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+			<div class="content">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				</asp:ContentPlaceHolder>
+			</div>
+            <uc1:Lateral runat="server" id="Lateral" />
         </div>
-        <div id="footer">
-            <p>
-                Unlicensed 2020. <a href="index.aspx">Bruno, João e Lucas</a> ao Domínio Público
-            </p>
-        </div>
+		<div id="footer">
+			<p>
+				Unlicensed 2020. <a href="index.html">Bruno, João e Lucas</a> ao Domínio Público
+			</p>
+		</div>
     </form>
 </body>
 </html>

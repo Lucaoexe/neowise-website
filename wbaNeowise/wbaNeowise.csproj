@@ -75,19 +75,37 @@
     <Content Include="blog.aspx" />
     <Content Include="cadastro.aspx" />
     <Content Include="cadastrosucess.aspx" />
+    <Content Include="css\custom-components.css" />
+    <Content Include="css\slideshow.css" />
     <Content Include="css\style.css" />
+    <Content Include="Estrelas.aspx" />
+    <Content Include="Galaxias.aspx" />
     <Content Include="icons\avancar.png" />
     <Content Include="icons\playpause.png" />
     <Content Include="icons\voltar.png" />
+    <Content Include="images\nasa-logo.png" />
     <Content Include="images\neowise-1.jpg" />
     <Content Include="images\neowise-2.jpeg" />
     <Content Include="images\neowise-3.jpg" />
     <Content Include="images\neowise-4.jpg" />
+    <Content Include="images\star-walk-logo.png" />
+    <Content Include="nebulosas.aspx" />
+    <Content Include="slideshow.ascx" />
     <Content Include="SlidesShow\6478-Gault.jpg" />
     <Content Include="images\album2.jpg" />
     <Content Include="SlidesShow\Arp-Madore2026-424.jpg" />
     <Content Include="images\bg-body2.jpg" />
     <Content Include="SlidesShow\estrelado.jpg" />
+    <Content Include="SlidesShow\g1.jpg" />
+    <Content Include="SlidesShow\g10.jpg" />
+    <Content Include="SlidesShow\g2.jpg" />
+    <Content Include="SlidesShow\g3.jpg" />
+    <Content Include="SlidesShow\g4.jpg" />
+    <Content Include="SlidesShow\g5.jpg" />
+    <Content Include="SlidesShow\g6.jpg" />
+    <Content Include="SlidesShow\g7.jpg" />
+    <Content Include="SlidesShow\g8.jpg" />
+    <Content Include="SlidesShow\g9.jpg" />
     <Content Include="SlidesShow\Galaxy-NGC-3147.jpg" />
     <Content Include="SlidesShow\Hen2-104.jpg" />
     <Content Include="index.aspx" />
@@ -96,6 +114,7 @@
     <Content Include="post1.aspx" />
     <Content Include="shows.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Lateral.ascx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="about.aspx.cs">
@@ -126,12 +145,33 @@
     <Compile Include="cadastrosucess.aspx.designer.cs">
       <DependentUpon>cadastrosucess.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Estrelas.aspx.cs">
+      <DependentUpon>Estrelas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Estrelas.aspx.designer.cs">
+      <DependentUpon>Estrelas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galaxias.aspx.cs">
+      <DependentUpon>Galaxias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galaxias.aspx.designer.cs">
+      <DependentUpon>Galaxias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nebulosas.aspx.cs">
+      <DependentUpon>nebulosas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nebulosas.aspx.designer.cs">
+      <DependentUpon>nebulosas.aspx</DependentUpon>
     </Compile>
     <Compile Include="PGMestre.Master.cs">
       <DependentUpon>PGMestre.Master</DependentUpon>
@@ -154,6 +194,20 @@
     </Compile>
     <Compile Include="shows.aspx.designer.cs">
       <DependentUpon>shows.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lateral.ascx.cs">
+      <DependentUpon>Lateral.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Lateral.ascx.designer.cs">
+      <DependentUpon>Lateral.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="slideshow.ascx.cs">
+      <DependentUpon>slideshow.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="slideshow.ascx.designer.cs">
+      <DependentUpon>slideshow.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+
+.slideshow {
+	width: 848px;
+	height: 480px;
+	border: 2px ridge #53B3CB;
+}
+
+.slideshow .slideshow__image {
+	
+}
+
+.slideshow .slideshow__image-name {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-shadow: 3px 3px black;
+	color: yellow;
+	font-size: 1.5em;
+	/*border: 1px solid red;*/
+	position: relative;
+	bottom: 10vh;
+}

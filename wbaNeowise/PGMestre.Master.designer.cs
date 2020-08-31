@@ -42,6 +42,15 @@ namespace wbaNeowise
         protected global::System.Web.UI.WebControls.Menu MenuPrincipal;
 
         /// <summary>
+        /// Controle txtEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+
+        /// <summary>
         /// Controle btnSubmit.
         /// </summary>
         /// <remarks>
@@ -51,13 +60,13 @@ namespace wbaNeowise
         protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// Controle BtnInscrever.
+        /// Controle ContentPlaceHolder_HeaderBody.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnInscrever;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder_HeaderBody;
 
         /// <summary>
         /// Controle ContentPlaceHolder1.
@@ -67,5 +76,14 @@ namespace wbaNeowise
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+
+        /// <summary>
+        /// Controle Lateral.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::wbaNeowise.WebUserControl1 Lateral;
     }
 }
