@@ -4,7 +4,7 @@
     <link href="css/custom-components.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2>Sobre nós</h2>
+    <h1>Sobre nós</h1>
     <p>
         Nós criamos este site com o intuito de compartilhar informações sobre <b>astronomia</b>, ou seja, a 
         ciência natural que estuda os corpos celestes. Aqui é importante não confundirmos astronomia

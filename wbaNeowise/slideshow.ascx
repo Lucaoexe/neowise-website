@@ -15,5 +15,4 @@
 		loop="true"
 		SlideShowAnimationType="SlideRight"
 		TargetControlID="Image1"
-		ImageTitleLabelID="label1" 
-	/>
+		ImageTitleLabelID="label1" />

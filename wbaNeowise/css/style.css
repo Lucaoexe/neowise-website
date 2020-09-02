@@ -70,41 +70,22 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 2px groove #B0DDE8;
 	color: #fff;
 }
-#header .header #formCadastro {
-	display: inline-block;
+#header .header .signUpButton {
 	float: right;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-}
-#header .header #formCadastro input {
-	background: url(../images/interface.png) no-repeat;
-	border: 0;
-	display: block;
-	float: left;
-	height: 36px;
-	margin: 0;
-}
-#header .header #formCadastro .inputEmail {
-	background-position: 0 0;
-	color: #342951;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-style: italic;
-	line-height: 36px;
-	padding: 0 5px;
-	width: 137px;
-}
-#header .header #formCadastro .btnCadastrar {
-	background-position: -153px 0;
+	background-color: #29335C;
+	color: #53B3CB;
+	border: 2px ridge #3E7394;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0.5em 1em;
+	transition: 1s;
+	border-radius: 2px;
 	cursor: pointer;
-	margin: 0 0 0 15px;
-	padding: 0;
-	width: 85px;
 }
-	#header .header #formCadastro .btnCadastrar:hover {
-		background-position: -153px -104px;
-	}
+#header .header .signUpButton:hover {
+	background-color: #345378;
+	border: 2px groove #3E7394;
+}
 #header .body, #header .footer {
 	margin: 0 0 0 41px;
 	padding: 0;
@@ -356,11 +337,11 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.8;
 }
 #body .sidebar .album a img {
-	border: 3px solid #fff;
-	border-radius: 4px;
 	display: block;
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
 #body .sidebar .album span {
 	color: #53B3CB;

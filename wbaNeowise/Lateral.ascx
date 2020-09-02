@@ -1,25 +1,16 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Lateral.ascx.cs" Inherits="wbaNeowise.WebUserControl1" %>
 <div class="sidebar">
 	<div>
-		<h3>Eventos</h3>
+		<h3>Eventos nesse mês</h3>
 		<ul>
 			<li>
-				<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-			</li>
-			<li>
-				<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-			</li>
-			<li>
-				<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
-			</li>
-			<li>
-				<a href="shows.html">July 19, 2023&nbsp;&nbsp;-&nbsp;&nbsp;<b>The Wercheshtire, UK 0900</b></a>
+				<a href="shows.html">Hoje - <b>Super Lua</b></a>
 			</li>
 		</ul>
 	</div>
 	<div class="album">
-		<h3>Imagens</h3>
-		<a href="#"><img src="images/album.jpg" alt=""></a> <span>Latest Album 2023 - Mp3, WAV, TIFF</span>
+		<h3>Imagem do dia</h3>
+		<a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html"><img src="images/nasa-image-08-31-2020.jpg" alt=""></a> <span>Sombras do nascer do sol sobre o mar das Filipinas</span>
 	</div>
 	<div class="connect">
 		<h3>links</h3>

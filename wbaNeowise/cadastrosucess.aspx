@@ -3,6 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <h4>Cadastro Feito com sucesso!</h4>
+        <h1>Cadastro feito com sucesso!</h1>
     </div>
 </asp:Content>
